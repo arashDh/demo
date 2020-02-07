@@ -1,14 +1,2026 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+    "categories":[
+  {
+    "id": 1,
+    "products": [
+      {
+        "id": 0,
+        "name": "Sleek Cotton Tuna",
+        "price": 885,
+        "image": "https://i.picsum.photos/id/2/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/1/242/242.jpg",
+        "company": "Industrial"
+      },
+      {
+        "id": 4,
+        "name": "Tasty Concrete Bike",
+        "price": 567,
+        "image": "https://i.picsum.photos/id/6/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/5/242/242.jpg",
+        "company": "Automotive"
+      },
+      {
+        "id": 8,
+        "name": "Generic Wooden Pizza",
+        "price": 837,
+        "image": "https://i.picsum.photos/id/10/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/9/242/242.jpg",
+        "company": "Tools"
+      },
+      {
+        "id": 12,
+        "name": "Licensed Steel Cheese",
+        "price": 912,
+        "image": "https://i.picsum.photos/id/14/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/13/242/242.jpg",
+        "company": "Games"
+      },
+      {
+        "id": 16,
+        "name": "Gorgeous Frozen Chicken",
+        "price": 536,
+        "image": "https://i.picsum.photos/id/18/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/17/242/242.jpg",
+        "company": "Industrial"
+      },
+      {
+        "id": 20,
+        "name": "Intelligent Soft Salad",
+        "price": 247,
+        "image": "https://i.picsum.photos/id/22/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/21/242/242.jpg",
+        "company": "Music"
+      },
+      {
+        "id": 24,
+        "name": "Practical Plastic Computer",
+        "price": 114,
+        "image": "https://i.picsum.photos/id/26/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/25/242/242.jpg",
+        "company": "Outdoors"
+      },
+      {
+        "id": 28,
+        "name": "Tasty Cotton Gloves",
+        "price": 595,
+        "image": "https://i.picsum.photos/id/30/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/29/242/242.jpg",
+        "company": "Kids"
+      },
+      {
+        "id": 32,
+        "name": "Small Frozen Bike",
+        "price": 623,
+        "image": "https://i.picsum.photos/id/34/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/33/242/242.jpg",
+        "company": "Baby"
+      },
+      {
+        "id": 36,
+        "name": "Fantastic Steel Shirt",
+        "price": 331,
+        "image": "https://i.picsum.photos/id/38/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/37/242/242.jpg",
+        "company": "Sports"
+      },
+      {
+        "id": 40,
+        "name": "Small Cotton Hat",
+        "price": 412,
+        "image": "https://i.picsum.photos/id/42/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/41/242/242.jpg",
+        "company": "Sports"
+      },
+      {
+        "id": 44,
+        "name": "Ergonomic Wooden Pants",
+        "price": 537,
+        "image": "https://i.picsum.photos/id/46/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/45/242/242.jpg",
+        "company": "Jewelery"
+      },
+      {
+        "id": 48,
+        "name": "Ergonomic Plastic Pizza",
+        "price": 677,
+        "image": "https://i.picsum.photos/id/50/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/49/242/242.jpg",
+        "company": "Kids"
+      },
+      {
+        "id": 52,
+        "name": "Unbranded Metal Bike",
+        "price": 620,
+        "image": "https://i.picsum.photos/id/54/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/53/242/242.jpg",
+        "company": "Computers"
+      },
+      {
+        "id": 56,
+        "name": "Sleek Granite Ball",
+        "price": 106,
+        "image": "https://i.picsum.photos/id/58/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/57/242/242.jpg",
+        "company": "Shoes"
+      },
+      {
+        "id": 60,
+        "name": "Awesome Fresh Fish",
+        "price": 575,
+        "image": "https://i.picsum.photos/id/62/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/61/242/242.jpg",
+        "company": "Tools"
+      },
+      {
+        "id": 64,
+        "name": "Licensed Steel Gloves",
+        "price": 520,
+        "image": "https://i.picsum.photos/id/66/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/65/242/242.jpg",
+        "company": "Movies"
+      },
+      {
+        "id": 68,
+        "name": "Fantastic Cotton Table",
+        "price": 298,
+        "image": "https://i.picsum.photos/id/70/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/69/242/242.jpg",
+        "company": "Games"
+      },
+      {
+        "id": 72,
+        "name": "Ergonomic Plastic Bacon",
+        "price": 450,
+        "image": "https://i.picsum.photos/id/74/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/73/242/242.jpg",
+        "company": "Shoes"
+      },
+      {
+        "id": 76,
+        "name": "Gorgeous Granite Fish",
+        "price": 947,
+        "image": "https://i.picsum.photos/id/78/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/77/242/242.jpg",
+        "company": "Movies"
+      },
+      {
+        "id": 80,
+        "name": "Ergonomic Rubber Chair",
+        "price": 96,
+        "image": "https://i.picsum.photos/id/82/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/81/242/242.jpg",
+        "company": "Clothing"
+      },
+      {
+        "id": 84,
+        "name": "Practical Plastic Chair",
+        "price": 88,
+        "image": "https://i.picsum.photos/id/86/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/85/242/242.jpg",
+        "company": "Shoes"
+      },
+      {
+        "id": 88,
+        "name": "Small Cotton Fish",
+        "price": 261,
+        "image": "https://i.picsum.photos/id/90/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/89/242/242.jpg",
+        "company": "Sports"
+      },
+      {
+        "id": 92,
+        "name": "Generic Granite Table",
+        "price": 736,
+        "image": "https://i.picsum.photos/id/94/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/93/242/242.jpg",
+        "company": "Kids"
+      },
+      {
+        "id": 96,
+        "name": "Handcrafted Cotton Gloves",
+        "price": 481,
+        "image": "https://i.picsum.photos/id/98/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/97/242/242.jpg",
+        "company": "Kids"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "products": [
+      {
+        "id": 1,
+        "name": "Practical Cotton Bike",
+        "price": 3,
+        "image": "https://i.picsum.photos/id/3/242/242.jpg",
+        "discountPrice": 1,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/2/242/242.jpg",
+        "company": "Health"
+      },
+      {
+        "id": 5,
+        "name": "Intelligent Rubber Computer",
+        "price": 565,
+        "image": "https://i.picsum.photos/id/7/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/6/242/242.jpg",
+        "company": "Toys"
+      },
+      {
+        "id": 9,
+        "name": "Small Frozen Fish",
+        "price": 802,
+        "image": "https://i.picsum.photos/id/11/242/242.jpg",
+        "discountPrice": 401,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/10/242/242.jpg",
+        "company": "Industrial"
+      },
+      {
+        "id": 13,
+        "name": "Sleek Plastic Car",
+        "price": 255,
+        "image": "https://i.picsum.photos/id/15/242/242.jpg",
+        "discountPrice": 255,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/14/242/242.jpg",
+        "company": "Electronics"
+      },
+      {
+        "id": 17,
+        "name": "Small Plastic Bacon",
+        "price": 9,
+        "image": "https://i.picsum.photos/id/19/242/242.jpg",
+        "discountPrice": 9,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/18/242/242.jpg",
+        "company": "Books"
+      },
+      {
+        "id": 21,
+        "name": "Awesome Frozen Salad",
+        "price": 132,
+        "image": "https://i.picsum.photos/id/23/242/242.jpg",
+        "discountPrice": 14,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/22/242/242.jpg",
+        "company": "Toys"
+      },
+      {
+        "id": 25,
+        "name": "Small Wooden Sausages",
+        "price": 880,
+        "image": "https://i.picsum.photos/id/27/242/242.jpg",
+        "discountPrice": 440,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/26/242/242.jpg",
+        "company": "Shoes"
+      },
+      {
+        "id": 29,
+        "name": "Small Wooden Bacon",
+        "price": 390,
+        "image": "https://i.picsum.photos/id/31/242/242.jpg",
+        "discountPrice": 43,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/30/242/242.jpg",
+        "company": "Industrial"
+      },
+      {
+        "id": 33,
+        "name": "Incredible Soft Computer",
+        "price": 350,
+        "image": "https://i.picsum.photos/id/35/242/242.jpg",
+        "discountPrice": 175,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/34/242/242.jpg",
+        "company": "Games"
+      },
+      {
+        "id": 37,
+        "name": "Awesome Granite Bacon",
+        "price": 965,
+        "image": "https://i.picsum.photos/id/39/242/242.jpg",
+        "discountPrice": 965,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/38/242/242.jpg",
+        "company": "Books"
+      },
+      {
+        "id": 41,
+        "name": "Tasty Metal Ball",
+        "price": 793,
+        "image": "https://i.picsum.photos/id/43/242/242.jpg",
+        "discountPrice": 99,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/42/242/242.jpg",
+        "company": "Beauty"
+      },
+      {
+        "id": 45,
+        "name": "Licensed Fresh Gloves",
+        "price": 713,
+        "image": "https://i.picsum.photos/id/47/242/242.jpg",
+        "discountPrice": 79,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/46/242/242.jpg",
+        "company": "Clothing"
+      },
+      {
+        "id": 49,
+        "name": "Gorgeous Concrete Chicken",
+        "price": 759,
+        "image": "https://i.picsum.photos/id/51/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/50/242/242.jpg",
+        "company": "Toys"
+      },
+      {
+        "id": 53,
+        "name": "Handcrafted Frozen Hat",
+        "price": 576,
+        "image": "https://i.picsum.photos/id/55/242/242.jpg",
+        "discountPrice": 72,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/54/242/242.jpg",
+        "company": "Electronics"
+      },
+      {
+        "id": 57,
+        "name": "Intelligent Rubber Keyboard",
+        "price": 851,
+        "image": "https://i.picsum.photos/id/59/242/242.jpg",
+        "discountPrice": 283,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/58/242/242.jpg",
+        "company": "Beauty"
+      },
+      {
+        "id": 61,
+        "name": "Licensed Cotton Sausages",
+        "price": 533,
+        "image": "https://i.picsum.photos/id/63/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/62/242/242.jpg",
+        "company": "Movies"
+      },
+      {
+        "id": 65,
+        "name": "Gorgeous Steel Pizza",
+        "price": 365,
+        "image": "https://i.picsum.photos/id/67/242/242.jpg",
+        "discountPrice": 40,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/66/242/242.jpg",
+        "company": "Baby"
+      },
+      {
+        "id": 69,
+        "name": "Unbranded Metal Mouse",
+        "price": 760,
+        "image": "https://i.picsum.photos/id/71/242/242.jpg",
+        "discountPrice": 126,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/70/242/242.jpg",
+        "company": "Health"
+      },
+      {
+        "id": 73,
+        "name": "Tasty Granite Soap",
+        "price": 679,
+        "image": "https://i.picsum.photos/id/75/242/242.jpg",
+        "discountPrice": 84,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/74/242/242.jpg",
+        "company": "Baby"
+      },
+      {
+        "id": 77,
+        "name": "Gorgeous Rubber Fish",
+        "price": 437,
+        "image": "https://i.picsum.photos/id/79/242/242.jpg",
+        "discountPrice": 48,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/78/242/242.jpg",
+        "company": "Jewelery"
+      },
+      {
+        "id": 81,
+        "name": "Unbranded Metal Computer",
+        "price": 932,
+        "image": "https://i.picsum.photos/id/83/242/242.jpg",
+        "discountPrice": 103,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/82/242/242.jpg",
+        "company": "Music"
+      },
+      {
+        "id": 85,
+        "name": "Awesome Plastic Ball",
+        "price": 116,
+        "image": "https://i.picsum.photos/id/87/242/242.jpg",
+        "discountPrice": 19,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/86/242/242.jpg",
+        "company": "Outdoors"
+      },
+      {
+        "id": 89,
+        "name": "Tasty Soft Cheese",
+        "price": 253,
+        "image": "https://i.picsum.photos/id/91/242/242.jpg",
+        "discountPrice": 42,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/90/242/242.jpg",
+        "company": "Baby"
+      },
+      {
+        "id": 93,
+        "name": "Sleek Rubber Pants",
+        "price": 158,
+        "image": "https://i.picsum.photos/id/95/242/242.jpg",
+        "discountPrice": 17,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/94/242/242.jpg",
+        "company": "Electronics"
+      },
+      {
+        "id": 97,
+        "name": "Awesome Wooden Tuna",
+        "price": 176,
+        "image": "https://i.picsum.photos/id/99/242/242.jpg",
+        "discountPrice": 19,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/98/242/242.jpg",
+        "company": "Clothing"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "products": [
+      {
+        "id": 2,
+        "name": "Intelligent Fresh Mouse",
+        "price": 109,
+        "image": "https://i.picsum.photos/id/4/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/3/242/242.jpg",
+        "company": "Jewelery"
+      },
+      {
+        "id": 6,
+        "name": "Gorgeous Cotton Shirt",
+        "price": 714,
+        "image": "https://i.picsum.photos/id/8/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/7/242/242.jpg",
+        "company": "Music"
+      },
+      {
+        "id": 10,
+        "name": "Practical Steel Mouse",
+        "price": 798,
+        "image": "https://i.picsum.photos/id/12/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/11/242/242.jpg",
+        "company": "Toys"
+      },
+      {
+        "id": 14,
+        "name": "Small Frozen Computer",
+        "price": 992,
+        "image": "https://i.picsum.photos/id/16/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/15/242/242.jpg",
+        "company": "Toys"
+      },
+      {
+        "id": 18,
+        "name": "Tasty Granite Fish",
+        "price": 514,
+        "image": "https://i.picsum.photos/id/20/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/19/242/242.jpg",
+        "company": "Games"
+      },
+      {
+        "id": 22,
+        "name": "Rustic Steel Tuna",
+        "price": 95,
+        "image": "https://i.picsum.photos/id/24/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/23/242/242.jpg",
+        "company": "Baby"
+      },
+      {
+        "id": 26,
+        "name": "Sleek Rubber Fish",
+        "price": 142,
+        "image": "https://i.picsum.photos/id/28/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/27/242/242.jpg",
+        "company": "Jewelery"
+      },
+      {
+        "id": 30,
+        "name": "Rustic Frozen Soap",
+        "price": 345,
+        "image": "https://i.picsum.photos/id/32/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/31/242/242.jpg",
+        "company": "Sports"
+      },
+      {
+        "id": 34,
+        "name": "Refined Wooden Cheese",
+        "price": 353,
+        "image": "https://i.picsum.photos/id/36/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/35/242/242.jpg",
+        "company": "Electronics"
+      },
+      {
+        "id": 38,
+        "name": "Sleek Steel Gloves",
+        "price": 509,
+        "image": "https://i.picsum.photos/id/40/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/39/242/242.jpg",
+        "company": "Baby"
+      },
+      {
+        "id": 42,
+        "name": "Handmade Concrete Hat",
+        "price": 921,
+        "image": "https://i.picsum.photos/id/44/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/43/242/242.jpg",
+        "company": "Tools"
+      },
+      {
+        "id": 46,
+        "name": "Ergonomic Concrete Tuna",
+        "price": 641,
+        "image": "https://i.picsum.photos/id/48/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/47/242/242.jpg",
+        "company": "Industrial"
+      },
+      {
+        "id": 50,
+        "name": "Licensed Cotton Table",
+        "price": 789,
+        "image": "https://i.picsum.photos/id/52/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/51/242/242.jpg",
+        "company": "Outdoors"
+      },
+      {
+        "id": 54,
+        "name": "Handmade Rubber Pants",
+        "price": 434,
+        "image": "https://i.picsum.photos/id/56/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/55/242/242.jpg",
+        "company": "Baby"
+      },
+      {
+        "id": 58,
+        "name": "Refined Metal Computer",
+        "price": 818,
+        "image": "https://i.picsum.photos/id/60/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/59/242/242.jpg",
+        "company": "Outdoors"
+      },
+      {
+        "id": 62,
+        "name": "Refined Metal Pants",
+        "price": 718,
+        "image": "https://i.picsum.photos/id/64/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/63/242/242.jpg",
+        "company": "Garden"
+      },
+      {
+        "id": 66,
+        "name": "Rustic Frozen Mouse",
+        "price": 571,
+        "image": "https://i.picsum.photos/id/68/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/67/242/242.jpg",
+        "company": "Music"
+      },
+      {
+        "id": 70,
+        "name": "Intelligent Cotton Computer",
+        "price": 749,
+        "image": "https://i.picsum.photos/id/72/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/71/242/242.jpg",
+        "company": "Kids"
+      },
+      {
+        "id": 74,
+        "name": "Ergonomic Fresh Gloves",
+        "price": 278,
+        "image": "https://i.picsum.photos/id/76/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/75/242/242.jpg",
+        "company": "Kids"
+      },
+      {
+        "id": 78,
+        "name": "Tasty Soft Gloves",
+        "price": 587,
+        "image": "https://i.picsum.photos/id/80/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/79/242/242.jpg",
+        "company": "Home"
+      },
+      {
+        "id": 82,
+        "name": "Intelligent Soft Chicken",
+        "price": 874,
+        "image": "https://i.picsum.photos/id/84/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/83/242/242.jpg",
+        "company": "Clothing"
+      },
+      {
+        "id": 86,
+        "name": "Practical Frozen Computer",
+        "price": 672,
+        "image": "https://i.picsum.photos/id/88/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/87/242/242.jpg",
+        "company": "Health"
+      },
+      {
+        "id": 90,
+        "name": "Gorgeous Plastic Salad",
+        "price": 157,
+        "image": "https://i.picsum.photos/id/92/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/91/242/242.jpg",
+        "company": "Toys"
+      },
+      {
+        "id": 94,
+        "name": "Rustic Granite Pants",
+        "price": 522,
+        "image": "https://i.picsum.photos/id/96/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/95/242/242.jpg",
+        "company": "Books"
+      },
+      {
+        "id": 98,
+        "name": "Intelligent Steel Pants",
+        "price": 241,
+        "image": "https://i.picsum.photos/id/100/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": false,
+        "url": "https://i.picsum.photos/id/99/242/242.jpg",
+        "company": "Games"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "products": [
+      {
+        "id": 3,
+        "name": "Handmade Soft Cheese",
+        "price": 750,
+        "image": "https://i.picsum.photos/id/5/242/242.jpg",
+        "discountPrice": 750,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/4/242/242.jpg",
+        "company": "Music"
+      },
+      {
+        "id": 7,
+        "name": "Licensed Fresh Gloves",
+        "price": 818,
+        "image": "https://i.picsum.photos/id/9/242/242.jpg",
+        "discountPrice": 116,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/8/242/242.jpg",
+        "company": "Movies"
+      },
+      {
+        "id": 11,
+        "name": "Gorgeous Rubber Towels",
+        "price": 862,
+        "image": "https://i.picsum.photos/id/13/242/242.jpg",
+        "discountPrice": 95,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/12/242/242.jpg",
+        "company": "Automotive"
+      },
+      {
+        "id": 15,
+        "name": "Intelligent Granite Fish",
+        "price": 33,
+        "image": "https://i.picsum.photos/id/17/242/242.jpg",
+        "discountPrice": 5,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/16/242/242.jpg",
+        "company": "Tools"
+      },
+      {
+        "id": 19,
+        "name": "Intelligent Concrete Chicken",
+        "price": 62,
+        "image": "https://i.picsum.photos/id/21/242/242.jpg",
+        "discountPrice": 7,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/20/242/242.jpg",
+        "company": "Garden"
+      },
+      {
+        "id": 23,
+        "name": "Small Plastic Bacon",
+        "price": 341,
+        "image": "https://i.picsum.photos/id/25/242/242.jpg",
+        "discountPrice": 113,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/24/242/242.jpg",
+        "company": "Baby"
+      },
+      {
+        "id": 27,
+        "name": "Licensed Rubber Hat",
+        "price": 277,
+        "image": "https://i.picsum.photos/id/29/242/242.jpg",
+        "discountPrice": 46,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/28/242/242.jpg",
+        "company": "Baby"
+      },
+      {
+        "id": 31,
+        "name": "Incredible Plastic Keyboard",
+        "price": 174,
+        "image": "https://i.picsum.photos/id/33/242/242.jpg",
+        "discountPrice": 29,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/32/242/242.jpg",
+        "company": "Grocery"
+      },
+      {
+        "id": 35,
+        "name": "Licensed Steel Chicken",
+        "price": 344,
+        "image": "https://i.picsum.photos/id/37/242/242.jpg",
+        "discountPrice": 49,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/36/242/242.jpg",
+        "company": "Sports"
+      },
+      {
+        "id": 39,
+        "name": "Awesome Metal Fish",
+        "price": 627,
+        "image": "https://i.picsum.photos/id/41/242/242.jpg",
+        "discountPrice": 69,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/40/242/242.jpg",
+        "company": "Toys"
+      },
+      {
+        "id": 43,
+        "name": "Gorgeous Plastic Sausages",
+        "price": 715,
+        "image": "https://i.picsum.photos/id/45/242/242.jpg",
+        "discountPrice": 143,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/44/242/242.jpg",
+        "company": "Music"
+      },
+      {
+        "id": 47,
+        "name": "Gorgeous Concrete Mouse",
+        "price": 480,
+        "image": "https://i.picsum.photos/id/49/242/242.jpg",
+        "discountPrice": null,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/48/242/242.jpg",
+        "company": "Home"
+      },
+      {
+        "id": 51,
+        "name": "Fantastic Frozen Pizza",
+        "price": 290,
+        "image": "https://i.picsum.photos/id/53/242/242.jpg",
+        "discountPrice": 48,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/52/242/242.jpg",
+        "company": "Industrial"
+      },
+      {
+        "id": 55,
+        "name": "Generic Wooden Sausages",
+        "price": 86,
+        "image": "https://i.picsum.photos/id/57/242/242.jpg",
+        "discountPrice": 43,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/56/242/242.jpg",
+        "company": "Movies"
+      },
+      {
+        "id": 59,
+        "name": "Unbranded Wooden Mouse",
+        "price": 405,
+        "image": "https://i.picsum.photos/id/61/242/242.jpg",
+        "discountPrice": 67,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/60/242/242.jpg",
+        "company": "Baby"
+      },
+      {
+        "id": 63,
+        "name": "Sleek Soft Mouse",
+        "price": 251,
+        "image": "https://i.picsum.photos/id/65/242/242.jpg",
+        "discountPrice": 41,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/64/242/242.jpg",
+        "company": "Beauty"
+      },
+      {
+        "id": 67,
+        "name": "Rustic Metal Computer",
+        "price": 503,
+        "image": "https://i.picsum.photos/id/69/242/242.jpg",
+        "discountPrice": 62,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/68/242/242.jpg",
+        "company": "Baby"
+      },
+      {
+        "id": 71,
+        "name": "Practical Cotton Table",
+        "price": 926,
+        "image": "https://i.picsum.photos/id/73/242/242.jpg",
+        "discountPrice": 463,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/72/242/242.jpg",
+        "company": "Home"
+      },
+      {
+        "id": 75,
+        "name": "Awesome Soft Salad",
+        "price": 972,
+        "image": "https://i.picsum.photos/id/77/242/242.jpg",
+        "discountPrice": 324,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/76/242/242.jpg",
+        "company": "Music"
+      },
+      {
+        "id": 79,
+        "name": "Intelligent Metal Fish",
+        "price": 378,
+        "image": "https://i.picsum.photos/id/81/242/242.jpg",
+        "discountPrice": 47,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/80/242/242.jpg",
+        "company": "Grocery"
+      },
+      {
+        "id": 83,
+        "name": "Generic Soft Pants",
+        "price": 476,
+        "image": "https://i.picsum.photos/id/85/242/242.jpg",
+        "discountPrice": 59,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/84/242/242.jpg",
+        "company": "Clothing"
+      },
+      {
+        "id": 87,
+        "name": "Small Cotton Chips",
+        "price": 199,
+        "image": "https://i.picsum.photos/id/89/242/242.jpg",
+        "discountPrice": 24,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/88/242/242.jpg",
+        "company": "Jewelery"
+      },
+      {
+        "id": 91,
+        "name": "Generic Plastic Chicken",
+        "price": 48,
+        "image": "https://i.picsum.photos/id/93/242/242.jpg",
+        "discountPrice": 16,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/92/242/242.jpg",
+        "company": "Tools"
+      },
+      {
+        "id": 95,
+        "name": "Fantastic Cotton Bacon",
+        "price": 817,
+        "image": "https://i.picsum.photos/id/97/242/242.jpg",
+        "discountPrice": 90,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/96/242/242.jpg",
+        "company": "Outdoors"
+      },
+      {
+        "id": 99,
+        "name": "Fantastic Plastic Table",
+        "price": 826,
+        "image": "https://i.picsum.photos/id/101/242/242.jpg",
+        "discountPrice": 165,
+        "hasDiscount": true,
+        "url": "https://i.picsum.photos/id/100/242/242.jpg",
+        "company": "Health"
+      }
+    ]
   }
+],
+    "products":[
+  {
+    "id": 0,
+    "name": "Sleek Cotton Tuna",
+    "price": 885,
+    "image": "https://i.picsum.photos/id/2/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/1/242/242.jpg",
+    "company": "Industrial"
+  },
+  {
+    "id": 1,
+    "name": "Practical Cotton Bike",
+    "price": 3,
+    "image": "https://i.picsum.photos/id/3/242/242.jpg",
+    "discountPrice": 1,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/2/242/242.jpg",
+    "company": "Health"
+  },
+  {
+    "id": 2,
+    "name": "Intelligent Fresh Mouse",
+    "price": 109,
+    "image": "https://i.picsum.photos/id/4/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/3/242/242.jpg",
+    "company": "Jewelery"
+  },
+  {
+    "id": 3,
+    "name": "Handmade Soft Cheese",
+    "price": 750,
+    "image": "https://i.picsum.photos/id/5/242/242.jpg",
+    "discountPrice": 750,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/4/242/242.jpg",
+    "company": "Music"
+  },
+  {
+    "id": 4,
+    "name": "Tasty Concrete Bike",
+    "price": 567,
+    "image": "https://i.picsum.photos/id/6/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/5/242/242.jpg",
+    "company": "Automotive"
+  },
+  {
+    "id": 5,
+    "name": "Intelligent Rubber Computer",
+    "price": 565,
+    "image": "https://i.picsum.photos/id/7/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/6/242/242.jpg",
+    "company": "Toys"
+  },
+  {
+    "id": 6,
+    "name": "Gorgeous Cotton Shirt",
+    "price": 714,
+    "image": "https://i.picsum.photos/id/8/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/7/242/242.jpg",
+    "company": "Music"
+  },
+  {
+    "id": 7,
+    "name": "Licensed Fresh Gloves",
+    "price": 818,
+    "image": "https://i.picsum.photos/id/9/242/242.jpg",
+    "discountPrice": 116,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/8/242/242.jpg",
+    "company": "Movies"
+  },
+  {
+    "id": 8,
+    "name": "Generic Wooden Pizza",
+    "price": 837,
+    "image": "https://i.picsum.photos/id/10/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/9/242/242.jpg",
+    "company": "Tools"
+  },
+  {
+    "id": 9,
+    "name": "Small Frozen Fish",
+    "price": 802,
+    "image": "https://i.picsum.photos/id/11/242/242.jpg",
+    "discountPrice": 401,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/10/242/242.jpg",
+    "company": "Industrial"
+  },
+  {
+    "id": 10,
+    "name": "Practical Steel Mouse",
+    "price": 798,
+    "image": "https://i.picsum.photos/id/12/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/11/242/242.jpg",
+    "company": "Toys"
+  },
+  {
+    "id": 11,
+    "name": "Gorgeous Rubber Towels",
+    "price": 862,
+    "image": "https://i.picsum.photos/id/13/242/242.jpg",
+    "discountPrice": 95,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/12/242/242.jpg",
+    "company": "Automotive"
+  },
+  {
+    "id": 12,
+    "name": "Licensed Steel Cheese",
+    "price": 912,
+    "image": "https://i.picsum.photos/id/14/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/13/242/242.jpg",
+    "company": "Games"
+  },
+  {
+    "id": 13,
+    "name": "Sleek Plastic Car",
+    "price": 255,
+    "image": "https://i.picsum.photos/id/15/242/242.jpg",
+    "discountPrice": 255,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/14/242/242.jpg",
+    "company": "Electronics"
+  },
+  {
+    "id": 14,
+    "name": "Small Frozen Computer",
+    "price": 992,
+    "image": "https://i.picsum.photos/id/16/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/15/242/242.jpg",
+    "company": "Toys"
+  },
+  {
+    "id": 15,
+    "name": "Intelligent Granite Fish",
+    "price": 33,
+    "image": "https://i.picsum.photos/id/17/242/242.jpg",
+    "discountPrice": 5,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/16/242/242.jpg",
+    "company": "Tools"
+  },
+  {
+    "id": 16,
+    "name": "Gorgeous Frozen Chicken",
+    "price": 536,
+    "image": "https://i.picsum.photos/id/18/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/17/242/242.jpg",
+    "company": "Industrial"
+  },
+  {
+    "id": 17,
+    "name": "Small Plastic Bacon",
+    "price": 9,
+    "image": "https://i.picsum.photos/id/19/242/242.jpg",
+    "discountPrice": 9,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/18/242/242.jpg",
+    "company": "Books"
+  },
+  {
+    "id": 18,
+    "name": "Tasty Granite Fish",
+    "price": 514,
+    "image": "https://i.picsum.photos/id/20/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/19/242/242.jpg",
+    "company": "Games"
+  },
+  {
+    "id": 19,
+    "name": "Intelligent Concrete Chicken",
+    "price": 62,
+    "image": "https://i.picsum.photos/id/21/242/242.jpg",
+    "discountPrice": 7,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/20/242/242.jpg",
+    "company": "Garden"
+  },
+  {
+    "id": 20,
+    "name": "Intelligent Soft Salad",
+    "price": 247,
+    "image": "https://i.picsum.photos/id/22/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/21/242/242.jpg",
+    "company": "Music"
+  },
+  {
+    "id": 21,
+    "name": "Awesome Frozen Salad",
+    "price": 132,
+    "image": "https://i.picsum.photos/id/23/242/242.jpg",
+    "discountPrice": 14,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/22/242/242.jpg",
+    "company": "Toys"
+  },
+  {
+    "id": 22,
+    "name": "Rustic Steel Tuna",
+    "price": 95,
+    "image": "https://i.picsum.photos/id/24/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/23/242/242.jpg",
+    "company": "Baby"
+  },
+  {
+    "id": 23,
+    "name": "Small Plastic Bacon",
+    "price": 341,
+    "image": "https://i.picsum.photos/id/25/242/242.jpg",
+    "discountPrice": 113,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/24/242/242.jpg",
+    "company": "Baby"
+  },
+  {
+    "id": 24,
+    "name": "Practical Plastic Computer",
+    "price": 114,
+    "image": "https://i.picsum.photos/id/26/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/25/242/242.jpg",
+    "company": "Outdoors"
+  },
+  {
+    "id": 25,
+    "name": "Small Wooden Sausages",
+    "price": 880,
+    "image": "https://i.picsum.photos/id/27/242/242.jpg",
+    "discountPrice": 440,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/26/242/242.jpg",
+    "company": "Shoes"
+  },
+  {
+    "id": 26,
+    "name": "Sleek Rubber Fish",
+    "price": 142,
+    "image": "https://i.picsum.photos/id/28/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/27/242/242.jpg",
+    "company": "Jewelery"
+  },
+  {
+    "id": 27,
+    "name": "Licensed Rubber Hat",
+    "price": 277,
+    "image": "https://i.picsum.photos/id/29/242/242.jpg",
+    "discountPrice": 46,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/28/242/242.jpg",
+    "company": "Baby"
+  },
+  {
+    "id": 28,
+    "name": "Tasty Cotton Gloves",
+    "price": 595,
+    "image": "https://i.picsum.photos/id/30/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/29/242/242.jpg",
+    "company": "Kids"
+  },
+  {
+    "id": 29,
+    "name": "Small Wooden Bacon",
+    "price": 390,
+    "image": "https://i.picsum.photos/id/31/242/242.jpg",
+    "discountPrice": 43,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/30/242/242.jpg",
+    "company": "Industrial"
+  },
+  {
+    "id": 30,
+    "name": "Rustic Frozen Soap",
+    "price": 345,
+    "image": "https://i.picsum.photos/id/32/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/31/242/242.jpg",
+    "company": "Sports"
+  },
+  {
+    "id": 31,
+    "name": "Incredible Plastic Keyboard",
+    "price": 174,
+    "image": "https://i.picsum.photos/id/33/242/242.jpg",
+    "discountPrice": 29,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/32/242/242.jpg",
+    "company": "Grocery"
+  },
+  {
+    "id": 32,
+    "name": "Small Frozen Bike",
+    "price": 623,
+    "image": "https://i.picsum.photos/id/34/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/33/242/242.jpg",
+    "company": "Baby"
+  },
+  {
+    "id": 33,
+    "name": "Incredible Soft Computer",
+    "price": 350,
+    "image": "https://i.picsum.photos/id/35/242/242.jpg",
+    "discountPrice": 175,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/34/242/242.jpg",
+    "company": "Games"
+  },
+  {
+    "id": 34,
+    "name": "Refined Wooden Cheese",
+    "price": 353,
+    "image": "https://i.picsum.photos/id/36/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/35/242/242.jpg",
+    "company": "Electronics"
+  },
+  {
+    "id": 35,
+    "name": "Licensed Steel Chicken",
+    "price": 344,
+    "image": "https://i.picsum.photos/id/37/242/242.jpg",
+    "discountPrice": 49,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/36/242/242.jpg",
+    "company": "Sports"
+  },
+  {
+    "id": 36,
+    "name": "Fantastic Steel Shirt",
+    "price": 331,
+    "image": "https://i.picsum.photos/id/38/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/37/242/242.jpg",
+    "company": "Sports"
+  },
+  {
+    "id": 37,
+    "name": "Awesome Granite Bacon",
+    "price": 965,
+    "image": "https://i.picsum.photos/id/39/242/242.jpg",
+    "discountPrice": 965,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/38/242/242.jpg",
+    "company": "Books"
+  },
+  {
+    "id": 38,
+    "name": "Sleek Steel Gloves",
+    "price": 509,
+    "image": "https://i.picsum.photos/id/40/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/39/242/242.jpg",
+    "company": "Baby"
+  },
+  {
+    "id": 39,
+    "name": "Awesome Metal Fish",
+    "price": 627,
+    "image": "https://i.picsum.photos/id/41/242/242.jpg",
+    "discountPrice": 69,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/40/242/242.jpg",
+    "company": "Toys"
+  },
+  {
+    "id": 40,
+    "name": "Small Cotton Hat",
+    "price": 412,
+    "image": "https://i.picsum.photos/id/42/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/41/242/242.jpg",
+    "company": "Sports"
+  },
+  {
+    "id": 41,
+    "name": "Tasty Metal Ball",
+    "price": 793,
+    "image": "https://i.picsum.photos/id/43/242/242.jpg",
+    "discountPrice": 99,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/42/242/242.jpg",
+    "company": "Beauty"
+  },
+  {
+    "id": 42,
+    "name": "Handmade Concrete Hat",
+    "price": 921,
+    "image": "https://i.picsum.photos/id/44/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/43/242/242.jpg",
+    "company": "Tools"
+  },
+  {
+    "id": 43,
+    "name": "Gorgeous Plastic Sausages",
+    "price": 715,
+    "image": "https://i.picsum.photos/id/45/242/242.jpg",
+    "discountPrice": 143,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/44/242/242.jpg",
+    "company": "Music"
+  },
+  {
+    "id": 44,
+    "name": "Ergonomic Wooden Pants",
+    "price": 537,
+    "image": "https://i.picsum.photos/id/46/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/45/242/242.jpg",
+    "company": "Jewelery"
+  },
+  {
+    "id": 45,
+    "name": "Licensed Fresh Gloves",
+    "price": 713,
+    "image": "https://i.picsum.photos/id/47/242/242.jpg",
+    "discountPrice": 79,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/46/242/242.jpg",
+    "company": "Clothing"
+  },
+  {
+    "id": 46,
+    "name": "Ergonomic Concrete Tuna",
+    "price": 641,
+    "image": "https://i.picsum.photos/id/48/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/47/242/242.jpg",
+    "company": "Industrial"
+  },
+  {
+    "id": 47,
+    "name": "Gorgeous Concrete Mouse",
+    "price": 480,
+    "image": "https://i.picsum.photos/id/49/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/48/242/242.jpg",
+    "company": "Home"
+  },
+  {
+    "id": 48,
+    "name": "Ergonomic Plastic Pizza",
+    "price": 677,
+    "image": "https://i.picsum.photos/id/50/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/49/242/242.jpg",
+    "company": "Kids"
+  },
+  {
+    "id": 49,
+    "name": "Gorgeous Concrete Chicken",
+    "price": 759,
+    "image": "https://i.picsum.photos/id/51/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/50/242/242.jpg",
+    "company": "Toys"
+  },
+  {
+    "id": 50,
+    "name": "Licensed Cotton Table",
+    "price": 789,
+    "image": "https://i.picsum.photos/id/52/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/51/242/242.jpg",
+    "company": "Outdoors"
+  },
+  {
+    "id": 51,
+    "name": "Fantastic Frozen Pizza",
+    "price": 290,
+    "image": "https://i.picsum.photos/id/53/242/242.jpg",
+    "discountPrice": 48,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/52/242/242.jpg",
+    "company": "Industrial"
+  },
+  {
+    "id": 52,
+    "name": "Unbranded Metal Bike",
+    "price": 620,
+    "image": "https://i.picsum.photos/id/54/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/53/242/242.jpg",
+    "company": "Computers"
+  },
+  {
+    "id": 53,
+    "name": "Handcrafted Frozen Hat",
+    "price": 576,
+    "image": "https://i.picsum.photos/id/55/242/242.jpg",
+    "discountPrice": 72,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/54/242/242.jpg",
+    "company": "Electronics"
+  },
+  {
+    "id": 54,
+    "name": "Handmade Rubber Pants",
+    "price": 434,
+    "image": "https://i.picsum.photos/id/56/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/55/242/242.jpg",
+    "company": "Baby"
+  },
+  {
+    "id": 55,
+    "name": "Generic Wooden Sausages",
+    "price": 86,
+    "image": "https://i.picsum.photos/id/57/242/242.jpg",
+    "discountPrice": 43,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/56/242/242.jpg",
+    "company": "Movies"
+  },
+  {
+    "id": 56,
+    "name": "Sleek Granite Ball",
+    "price": 106,
+    "image": "https://i.picsum.photos/id/58/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/57/242/242.jpg",
+    "company": "Shoes"
+  },
+  {
+    "id": 57,
+    "name": "Intelligent Rubber Keyboard",
+    "price": 851,
+    "image": "https://i.picsum.photos/id/59/242/242.jpg",
+    "discountPrice": 283,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/58/242/242.jpg",
+    "company": "Beauty"
+  },
+  {
+    "id": 58,
+    "name": "Refined Metal Computer",
+    "price": 818,
+    "image": "https://i.picsum.photos/id/60/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/59/242/242.jpg",
+    "company": "Outdoors"
+  },
+  {
+    "id": 59,
+    "name": "Unbranded Wooden Mouse",
+    "price": 405,
+    "image": "https://i.picsum.photos/id/61/242/242.jpg",
+    "discountPrice": 67,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/60/242/242.jpg",
+    "company": "Baby"
+  },
+  {
+    "id": 60,
+    "name": "Awesome Fresh Fish",
+    "price": 575,
+    "image": "https://i.picsum.photos/id/62/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/61/242/242.jpg",
+    "company": "Tools"
+  },
+  {
+    "id": 61,
+    "name": "Licensed Cotton Sausages",
+    "price": 533,
+    "image": "https://i.picsum.photos/id/63/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/62/242/242.jpg",
+    "company": "Movies"
+  },
+  {
+    "id": 62,
+    "name": "Refined Metal Pants",
+    "price": 718,
+    "image": "https://i.picsum.photos/id/64/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/63/242/242.jpg",
+    "company": "Garden"
+  },
+  {
+    "id": 63,
+    "name": "Sleek Soft Mouse",
+    "price": 251,
+    "image": "https://i.picsum.photos/id/65/242/242.jpg",
+    "discountPrice": 41,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/64/242/242.jpg",
+    "company": "Beauty"
+  },
+  {
+    "id": 64,
+    "name": "Licensed Steel Gloves",
+    "price": 520,
+    "image": "https://i.picsum.photos/id/66/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/65/242/242.jpg",
+    "company": "Movies"
+  },
+  {
+    "id": 65,
+    "name": "Gorgeous Steel Pizza",
+    "price": 365,
+    "image": "https://i.picsum.photos/id/67/242/242.jpg",
+    "discountPrice": 40,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/66/242/242.jpg",
+    "company": "Baby"
+  },
+  {
+    "id": 66,
+    "name": "Rustic Frozen Mouse",
+    "price": 571,
+    "image": "https://i.picsum.photos/id/68/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/67/242/242.jpg",
+    "company": "Music"
+  },
+  {
+    "id": 67,
+    "name": "Rustic Metal Computer",
+    "price": 503,
+    "image": "https://i.picsum.photos/id/69/242/242.jpg",
+    "discountPrice": 62,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/68/242/242.jpg",
+    "company": "Baby"
+  },
+  {
+    "id": 68,
+    "name": "Fantastic Cotton Table",
+    "price": 298,
+    "image": "https://i.picsum.photos/id/70/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/69/242/242.jpg",
+    "company": "Games"
+  },
+  {
+    "id": 69,
+    "name": "Unbranded Metal Mouse",
+    "price": 760,
+    "image": "https://i.picsum.photos/id/71/242/242.jpg",
+    "discountPrice": 126,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/70/242/242.jpg",
+    "company": "Health"
+  },
+  {
+    "id": 70,
+    "name": "Intelligent Cotton Computer",
+    "price": 749,
+    "image": "https://i.picsum.photos/id/72/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/71/242/242.jpg",
+    "company": "Kids"
+  },
+  {
+    "id": 71,
+    "name": "Practical Cotton Table",
+    "price": 926,
+    "image": "https://i.picsum.photos/id/73/242/242.jpg",
+    "discountPrice": 463,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/72/242/242.jpg",
+    "company": "Home"
+  },
+  {
+    "id": 72,
+    "name": "Ergonomic Plastic Bacon",
+    "price": 450,
+    "image": "https://i.picsum.photos/id/74/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/73/242/242.jpg",
+    "company": "Shoes"
+  },
+  {
+    "id": 73,
+    "name": "Tasty Granite Soap",
+    "price": 679,
+    "image": "https://i.picsum.photos/id/75/242/242.jpg",
+    "discountPrice": 84,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/74/242/242.jpg",
+    "company": "Baby"
+  },
+  {
+    "id": 74,
+    "name": "Ergonomic Fresh Gloves",
+    "price": 278,
+    "image": "https://i.picsum.photos/id/76/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/75/242/242.jpg",
+    "company": "Kids"
+  },
+  {
+    "id": 75,
+    "name": "Awesome Soft Salad",
+    "price": 972,
+    "image": "https://i.picsum.photos/id/77/242/242.jpg",
+    "discountPrice": 324,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/76/242/242.jpg",
+    "company": "Music"
+  },
+  {
+    "id": 76,
+    "name": "Gorgeous Granite Fish",
+    "price": 947,
+    "image": "https://i.picsum.photos/id/78/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/77/242/242.jpg",
+    "company": "Movies"
+  },
+  {
+    "id": 77,
+    "name": "Gorgeous Rubber Fish",
+    "price": 437,
+    "image": "https://i.picsum.photos/id/79/242/242.jpg",
+    "discountPrice": 48,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/78/242/242.jpg",
+    "company": "Jewelery"
+  },
+  {
+    "id": 78,
+    "name": "Tasty Soft Gloves",
+    "price": 587,
+    "image": "https://i.picsum.photos/id/80/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/79/242/242.jpg",
+    "company": "Home"
+  },
+  {
+    "id": 79,
+    "name": "Intelligent Metal Fish",
+    "price": 378,
+    "image": "https://i.picsum.photos/id/81/242/242.jpg",
+    "discountPrice": 47,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/80/242/242.jpg",
+    "company": "Grocery"
+  },
+  {
+    "id": 80,
+    "name": "Ergonomic Rubber Chair",
+    "price": 96,
+    "image": "https://i.picsum.photos/id/82/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/81/242/242.jpg",
+    "company": "Clothing"
+  },
+  {
+    "id": 81,
+    "name": "Unbranded Metal Computer",
+    "price": 932,
+    "image": "https://i.picsum.photos/id/83/242/242.jpg",
+    "discountPrice": 103,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/82/242/242.jpg",
+    "company": "Music"
+  },
+  {
+    "id": 82,
+    "name": "Intelligent Soft Chicken",
+    "price": 874,
+    "image": "https://i.picsum.photos/id/84/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/83/242/242.jpg",
+    "company": "Clothing"
+  },
+  {
+    "id": 83,
+    "name": "Generic Soft Pants",
+    "price": 476,
+    "image": "https://i.picsum.photos/id/85/242/242.jpg",
+    "discountPrice": 59,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/84/242/242.jpg",
+    "company": "Clothing"
+  },
+  {
+    "id": 84,
+    "name": "Practical Plastic Chair",
+    "price": 88,
+    "image": "https://i.picsum.photos/id/86/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/85/242/242.jpg",
+    "company": "Shoes"
+  },
+  {
+    "id": 85,
+    "name": "Awesome Plastic Ball",
+    "price": 116,
+    "image": "https://i.picsum.photos/id/87/242/242.jpg",
+    "discountPrice": 19,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/86/242/242.jpg",
+    "company": "Outdoors"
+  },
+  {
+    "id": 86,
+    "name": "Practical Frozen Computer",
+    "price": 672,
+    "image": "https://i.picsum.photos/id/88/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/87/242/242.jpg",
+    "company": "Health"
+  },
+  {
+    "id": 87,
+    "name": "Small Cotton Chips",
+    "price": 199,
+    "image": "https://i.picsum.photos/id/89/242/242.jpg",
+    "discountPrice": 24,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/88/242/242.jpg",
+    "company": "Jewelery"
+  },
+  {
+    "id": 88,
+    "name": "Small Cotton Fish",
+    "price": 261,
+    "image": "https://i.picsum.photos/id/90/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/89/242/242.jpg",
+    "company": "Sports"
+  },
+  {
+    "id": 89,
+    "name": "Tasty Soft Cheese",
+    "price": 253,
+    "image": "https://i.picsum.photos/id/91/242/242.jpg",
+    "discountPrice": 42,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/90/242/242.jpg",
+    "company": "Baby"
+  },
+  {
+    "id": 90,
+    "name": "Gorgeous Plastic Salad",
+    "price": 157,
+    "image": "https://i.picsum.photos/id/92/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/91/242/242.jpg",
+    "company": "Toys"
+  },
+  {
+    "id": 91,
+    "name": "Generic Plastic Chicken",
+    "price": 48,
+    "image": "https://i.picsum.photos/id/93/242/242.jpg",
+    "discountPrice": 16,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/92/242/242.jpg",
+    "company": "Tools"
+  },
+  {
+    "id": 92,
+    "name": "Generic Granite Table",
+    "price": 736,
+    "image": "https://i.picsum.photos/id/94/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/93/242/242.jpg",
+    "company": "Kids"
+  },
+  {
+    "id": 93,
+    "name": "Sleek Rubber Pants",
+    "price": 158,
+    "image": "https://i.picsum.photos/id/95/242/242.jpg",
+    "discountPrice": 17,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/94/242/242.jpg",
+    "company": "Electronics"
+  },
+  {
+    "id": 94,
+    "name": "Rustic Granite Pants",
+    "price": 522,
+    "image": "https://i.picsum.photos/id/96/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/95/242/242.jpg",
+    "company": "Books"
+  },
+  {
+    "id": 95,
+    "name": "Fantastic Cotton Bacon",
+    "price": 817,
+    "image": "https://i.picsum.photos/id/97/242/242.jpg",
+    "discountPrice": 90,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/96/242/242.jpg",
+    "company": "Outdoors"
+  },
+  {
+    "id": 96,
+    "name": "Handcrafted Cotton Gloves",
+    "price": 481,
+    "image": "https://i.picsum.photos/id/98/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/97/242/242.jpg",
+    "company": "Kids"
+  },
+  {
+    "id": 97,
+    "name": "Awesome Wooden Tuna",
+    "price": 176,
+    "image": "https://i.picsum.photos/id/99/242/242.jpg",
+    "discountPrice": 19,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/98/242/242.jpg",
+    "company": "Clothing"
+  },
+  {
+    "id": 98,
+    "name": "Intelligent Steel Pants",
+    "price": 241,
+    "image": "https://i.picsum.photos/id/100/242/242.jpg",
+    "discountPrice": null,
+    "hasDiscount": false,
+    "url": "https://i.picsum.photos/id/99/242/242.jpg",
+    "company": "Games"
+  },
+  {
+    "id": 99,
+    "name": "Fantastic Plastic Table",
+    "price": 826,
+    "image": "https://i.picsum.photos/id/101/242/242.jpg",
+    "discountPrice": 165,
+    "hasDiscount": true,
+    "url": "https://i.picsum.photos/id/100/242/242.jpg",
+    "company": "Health"
+  }
+]
 }
